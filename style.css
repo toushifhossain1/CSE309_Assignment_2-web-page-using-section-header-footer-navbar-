@@ -3,11 +3,12 @@ body {
 }
 
 #Upper-Part {
-    background-image: url(img/BackgroundImage.jpg);
+    background-image: url(img/BackgroundImage.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 30vh;
+    color: aqua;
+    height: 35vh;
 }
 
 #nav-bar {
@@ -21,9 +22,17 @@ body {
     align-items: center;
 }
 
+#Upper-Middle-First {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    margin-bottom: -2.5%;
+}
+
 #Rounded-Button {
     border-radius: 25px;
-    background-color: greenyellow;
+    background-color: rgb(238, 237, 213);
 }
 
 #Rounded-Button:hover {
@@ -31,7 +40,9 @@ body {
 }
 
 #transparent-button {
+    border-color: transparent;
     background: none;
+    color: white;
 }
 
 #transparent-button:hover {
@@ -54,4 +65,34 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#Middle-para {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#Last-Para {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+    font-size: 0.8rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#Bottom-Part {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+
 }
