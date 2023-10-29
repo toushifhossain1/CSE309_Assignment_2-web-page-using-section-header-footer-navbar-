@@ -8,7 +8,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     color: aqua;
-    height: 35vh;
+    height: 40%;
+    width: 100%;
 }
 
 #nav-bar {
@@ -20,6 +21,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 #Upper-Middle-First {
@@ -33,6 +35,7 @@ body {
 #Rounded-Button {
     border-radius: 25px;
     background-color: rgb(238, 237, 213);
+    margin-bottom: 2%;
 }
 
 #Rounded-Button:hover {
@@ -89,10 +92,24 @@ body {
     margin-right: 20%;
 }
 
-#Bottom-Part {
+#Bottom-Part-Container {
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: flex-start;
     margin-top: 5%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
+
+#Bottom-Part {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Bottom-Left,
+#Bottom-Right {
+    width: 48%;
 }
