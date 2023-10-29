@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+
+#Upper-Part {
+    background-image: url(img/BackgroundImage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Upper-Middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Rounded-Button {
+    border-radius: 25px;
+    background-color: greenyellow;
+}
+
+#Rounded-Button:hover {
+    cursor: pointer;
+}
+
+#transparent-button {
+    background: none;
+}
+
+#transparent-button:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+#Second-Para {
+    margin-top: 5vh;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
