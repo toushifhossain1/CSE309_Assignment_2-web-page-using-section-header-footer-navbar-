@@ -113,3 +113,13 @@ body {
 #Bottom-Right {
     width: 48%;
 }
+
+
+#Social-Media-Container {
+    margin-top: 0.5in;
+    background-color: grey;
+    height: 0.5in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
