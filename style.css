@@ -17,6 +17,13 @@ body {
     justify-content: space-between;
 }
 
+#Top-Left {
+    margin: 1%;
+    border-radius: 1px;
+    padding: 5px;
+    border: 1px solid #ffefaa;
+}
+
 #Upper-Middle {
     display: flex;
     justify-content: center;
@@ -104,6 +111,7 @@ body {
 
 
 #Bottom-Part {
+    background-color: #ffefaa;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -111,15 +119,26 @@ body {
 
 #Bottom-Left,
 #Bottom-Right {
+    margin-top: 1%;
+    margin-bottom: 1%;
     width: 48%;
 }
 
 
 #Social-Media-Container {
     margin-top: 0.5in;
-    background-color: grey;
+    background-color: rgb(48, 48, 48);
     height: 0.5in;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+footer {
+    background-color: black;
+    color: rgb(238, 239, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
